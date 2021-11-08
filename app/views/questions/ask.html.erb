@@ -1,0 +1,10 @@
+<h1>Welcome to your Stupid Coach! 🤓 </h1>
+<form action="/answer" method="get">
+  <input
+    class = "question-box"
+    type="text"
+    name="question"
+    placeholder= "What's your question?"
+    value = '<%= params[:question]%>'>
+  <input type="submit" value="Ask!" class="button">
+</form>

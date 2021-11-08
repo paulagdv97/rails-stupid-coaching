@@ -1,0 +1,10 @@
+<div>
+<h1><%= params[:question] %></h1>
+<p>-You</p>
+</div>
+<div class="coach-answer">
+<h2><%= @answer%></h2>
+<p>-Your stupid coach 🙄</p>
+</div>
+
+<h2><%= link_to "Ask a new question! 🚀", ask_path, class: "ask-again" %></h2>
